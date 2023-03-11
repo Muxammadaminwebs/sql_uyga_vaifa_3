@@ -10,4 +10,3 @@
      select * from books where ( author is not null and price is not null and page between 110 and 120) order by page asc;
 
      select name , language from books where (author is not null and price is not null and year=2004 and page >= 150);
-     savil
